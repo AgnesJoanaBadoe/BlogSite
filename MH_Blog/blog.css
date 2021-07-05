@@ -21,3 +21,24 @@ footer{
     float: left;
     margin-right: 30px;
 } */
+
+/* Carousel */
+
+.carousel-item{
+    height: 20vh;
+    min-height: 200px;
+    background: no-repeat scrol center scroll;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background: black; */
+    /* opacity: 0.7; */
+}
